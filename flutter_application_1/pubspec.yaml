@@ -1,0 +1,40 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2  # Versi terbaru
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fotoutama.jpg
+    - assets/bubur.jpg
+    - assets/lntgsyr.jpg
+    - assets/nasgor.jpg
+    - assets/oatmeal.jpg
+    - assets/rotipnggng.jpg
+    - assets/telurmatasapi.jpg
+    - assets/ayambkr.jpg
+    - assets/naspad.jpg
+    - assets/kitchen.jpg
+    - assets/makanansehat.jpg
+
+  fonts:
+    - family: IslandMoments
+      fonts:
+        - asset: assets/font/IslandMoments-Regular.ttf
